@@ -31,12 +31,14 @@ class NewProjectCommand(sublime_plugin.WindowCommand):
 			stubpath = os.path.join( stub_dir, stubs[x] )
 			shutil.copy(stubpath, destFolder)
 
+		#open main.lua
+		mainlua = os.path.join(destFolder, 'main.lua')
+		self.window.open_file(mainlua)
+		#self.window.active_view().set_syntax_file("Packages/Corona Editor/CoronaSDKLua.tmLanguage")
+		file = self.window.find_open_file(mainlua)
+		file.set_syntax_file("Packages/Corona Editor/CoronaSDKLua.tmLanguage")
+
 		istrue = sublime.ok_cancel_dialog("Save your new project now?", "Save")
 		
 		if istrue:
 			self.window.run_command("save_project_and_workspace_as")
-
-		#open main.lua
-		mainlua = os.path.join(destFolder, 'main.lua')
-		print(mainlua)
-		self.window.open_file(mainlua)
