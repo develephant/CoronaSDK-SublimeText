@@ -3,7 +3,7 @@
 	{ "caption": "Corona SDK Docs", "command": "corona_docs" },
 	{ "caption": "Function Navigator...", 	"command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
 	{ "caption": "-" },
-	{ "caption": "Display...", "children": 
+	{ "caption": "Display", "children": 
 		[
 			{ "caption": "Group", "command": "corona_snippet", "args": { "name": "display.newGroup()" } },
 			{ "caption": "-" },
@@ -24,7 +24,7 @@
 			{ "caption": "Save", "command": "corona_snippet", "args": { "name": "display.save()" } }
 		]
 	},
-	{ "caption": "Physics...", "children": 
+	{ "caption": "Physics", "children": 
 		[
 			{ "caption": "Add Body", "command": "corona_snippet", "args": { "name": "physics.addBody()" } },
 			{ "caption": "-" },
@@ -41,7 +41,7 @@
 			{ "caption": "Query Region", "command": "corona_snippet", "args": { "name": "physics.queryRegion()" } }
 		]
 	},
-	{ "caption": "Transitions...", "children": 
+	{ "caption": "Transitions", "children": 
 		[
 			{ "caption": "To", "command": "corona_snippet", "args": { "name": "transition.to()" } },
 			{ "caption": "From", "command": "corona_snippet", "args": { "name": "transition.from()" } },
@@ -56,7 +56,7 @@
 			{ "caption": "Scale To", "command": "corona_snippet", "args": { "name": "transition.scaleTo()" } }
 		]
 	},
-	{ "caption": "Audio...", "children": 
+	{ "caption": "Audio", "children": 
 		[
 			{ "caption": "Load Sound", "command": "corona_snippet", "args": { "name": "audio.loadSound()" } },
 			{ "caption": "Load Stream", "command": "corona_snippet", "args": { "name": "audio.loadStream()" } },
@@ -68,7 +68,7 @@
 			{ "caption": "Set Volume", "command": "corona_snippet", "args": { "name": "audio.setVolume()" } }
 		]
 	},
-	{ "caption": "Widgets...", "children": 
+	{ "caption": "Widgets", "children": 
 		[
 			{ "caption": "Button", "command": "corona_snippet", "args": { "name": "widget.newButton()" } },
 			{ "caption": "Picker Wheel", "command": "corona_snippet", "args": { "name": "widget.newPickerWheel()" } },
@@ -83,7 +83,7 @@
 			{ "caption": "Table View", "command": "corona_snippet", "args": { "name": "widget.newTableView()" } }
 		]
 	},
-	{ "caption": "Native...", "children": 
+	{ "caption": "Native", "children": 
 		[
 			{ "caption": "Text Box", "command": "corona_snippet", "args": { "name": "native.newTextBox()" } },
 			{ "caption": "Text Field", "command": "corona_snippet", "args": { "name": "native.newTextField()" } },
@@ -95,7 +95,7 @@
 			{ "caption": "Show Web Popup", "command": "corona_snippet", "args": { "name": "native.showWebPopup()" } }
 		]
 	},
-	{ "caption": "Other...", "children": 
+	{ "caption": "Other", "children": 
 		[
 			{ "caption": "New Scene", "command": "corona_snippet", "args": { "name": "storyboard" } },
 			{ "caption": "New Class", "command": "corona_snippet", "args": { "name": "class" } },
