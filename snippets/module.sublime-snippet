@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+local M = {}
+
+function M.init()
+
+end
+
+return M
+]]></content>
+    <tabTrigger>mod</tabTrigger>
+    <scope>source.lua</scope>
+    <description>Module</description>
+</snippet>

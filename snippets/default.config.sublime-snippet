@@ -1,0 +1,37 @@
+<snippet>
+    <content><![CDATA[
+application = {
+	content = {
+		width = ${1:320},
+		height = ${2:480}, 
+		scale = "${3:letterBox}",
+		fps = ${4:30},
+		
+		--[[
+        imageSuffix = {
+		    ["@2x"] = 2,
+		}
+		--]]
+	},
+
+    --[[
+    -- Push notifications
+
+    notification =
+    {
+        iphone =
+        {
+            types =
+            {
+                "badge", "sound", "alert", "newsstand"
+            }
+        }
+    }
+    --]]    
+}
+
+]]></content>
+    <tabTrigger>cls</tabTrigger>
+    <scope>source.lua</scope>
+    <description>Class</description>
+</snippet>

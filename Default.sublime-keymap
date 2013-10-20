@@ -1,3 +1,17 @@
 [
-	{ "keys": ["f1"], "command": "corona_docs" }
+	{ "keys": ["f1"], "command": "corona_docs" },
+	{ "keys": ["ctrl+shift+g"], "command": "corona_snippet", "args": { "name": "display.newGroup()" } },
+	{ "keys": ["ctrl+shift+i"], "command": "corona_snippet", "args": { "name": "display.newImage()" } },
+	{ "keys": ["alt+shift+i"], "command": "corona_snippet", "args": { "name": "display.newImageRect()" } },
+	{ "keys": ["ctrl+shift+s"], "command": "corona_snippet", "args": { "name": "display.newSprite()" } },
+	{ "keys": ["ctrl+shift+r"], "command": "corona_snippet", "args": { "name": "display.newRect()" } },
+	{ "keys": ["alt+shift+r"], "command": "corona_snippet", "args": { "name": "display.newRoundedRect()" } },
+	{ "keys": ["ctrl+shift+c"], "command": "corona_snippet", "args": { "name": "display.newCircle()" } },
+	{ "keys": ["ctrl+shift+l"], "command": "corona_snippet", "args": { "name": "display.newLine()" } },
+	{ "keys": ["ctrl+shift+t"], "command": "corona_snippet", "args": { "name": "display.newText()" } },
+	{ "keys": ["alt+shift+t"], "command": "corona_snippet", "args": { "name": "transition.to()" } },
+	{ "keys": ["ctrl+shift+a"], "command": "corona_snippet", "args": { "name": "audio.loadSound()" } },
+	{ "keys": ["alt+shift+a"], "command": "corona_snippet", "args": { "name": "audio.loadStream()" } },
+	{ "keys": ["ctrl+shift+b"], "command": "corona_snippet", "args": { "name": "physics.addBody()" } },
+	{ "keys": ["alt+shift+b"], "command": "corona_snippet", "args": { "name": "widget.newButton()" } },
 ]

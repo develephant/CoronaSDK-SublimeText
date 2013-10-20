@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+local ${1:joint} = physics.newJoint( "wheel", ${2:object1}, ${3:object2}, ${4:anchorX}, ${5:anchorY}, ${6:axisDistanceX}, ${7:axisDistanceY} )
+]]></content>
+    <tabTrigger>pnjwh</tabTrigger>
+    <scope>source.lua</scope>
+    <description>physics.newJoint("wheel")</description>
+</snippet>
+

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+local ${1:joint} = physics.newJoint( "touch", ${2:object1}, ${3:targetX}, ${4:targetY} )
+]]></content>
+    <tabTrigger>pnjt</tabTrigger>
+    <scope>source.lua</scope>
+    <description>physics.newJoint("touch")</description>
+</snippet>
+

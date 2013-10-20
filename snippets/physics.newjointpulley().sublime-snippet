@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+local ${1:joint} = physics.newJoint( "pulley", ${2:object1}, ${3:object2}, ${4:anchorX1}, ${5:anchorY1}, ${6:anchorX2}, ${7:anchorY2}, ${8:x1}, ${9:y1}, ${10:x2}, ${11:y2}, ${12:ration} )
+]]></content>
+    <tabTrigger>pnjpu</tabTrigger>
+    <scope>source.lua</scope>
+    <description>physics.newJoint("pulley")</description>
+</snippet>
+

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+local ${1:joint} = physics.newJoint( "pivot", ${2:object1}, ${3:object2}, ${4:anchorX}, ${5:anchorY} )
+]]></content>
+    <tabTrigger>pnjpv</tabTrigger>
+    <scope>source.lua</scope>
+    <description>physics.newJoint("pivot")</description>
+</snippet>
+

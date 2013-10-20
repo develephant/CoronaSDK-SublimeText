@@ -1,0 +1,16 @@
+[
+    {
+        "caption": "Corona Editor: Libraries",
+        "command": "grab",
+        "args": {
+            "type": "libraries"
+        }
+    },
+    {
+        "caption": "Corona Editor: Frameworks",
+        "command": "grab",
+        "args": {
+            "type": "frameworks"
+        }
+    }
+]
