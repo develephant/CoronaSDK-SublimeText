@@ -13,5 +13,5 @@
 	{ "keys": ["ctrl+shift+a"], "command": "corona_snippet", "args": { "name": "audio.loadSound()" } },
 	{ "keys": ["alt+shift+a"], "command": "corona_snippet", "args": { "name": "audio.loadStream()" } },
 	{ "keys": ["ctrl+shift+b"], "command": "corona_snippet", "args": { "name": "physics.addBody()" } },
-	{ "keys": ["alt+shift+b"], "command": "corona_snippet", "args": { "name": "widget.newButton()" } },
+	{ "keys": ["alt+shift+b"], "command": "corona_snippet", "args": { "name": "widget.newButton()" } }
 ]
