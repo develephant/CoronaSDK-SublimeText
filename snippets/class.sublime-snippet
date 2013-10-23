@@ -11,7 +11,7 @@ end
 
 return ${1:Class}
 ]]></content>
-    <tabTrigger>cls</tabTrigger>
+    <tabTrigger>class</tabTrigger>
     <scope>source.lua</scope>
-    <description>Class</description>
+    <description>Create a Class stub</description>
 </snippet>

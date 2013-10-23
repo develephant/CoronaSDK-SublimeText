@@ -1,0 +1,13 @@
+{
+    "libraries":
+    {
+    	"CBEffects": "https://github.com/GymbylCoding/CBEffects/archive/master.zip",
+        "Lime2DTileEngine": "https://github.com/OutlawGameTools/Lime2DTileEngine/archive/master.zip"
+    },
+    "frameworks":
+    {
+        "Storyboard game (basic)": "https://bitbucket.org/develephant/a-storyboard-based-framework-for-corona-sdk/downloads/storyboard_framework_simple.zip",
+        "Storyboard game (extended)": "https://bitbucket.org/develephant/a-storyboard-based-framework-for-corona-sdk/get/default.zip",
+        "SSKCorona": "https://github.com/roaminggamer/SSKCorona/archive/master.zip"
+    }
+}

@@ -13,8 +13,9 @@ class OnBuildCommand(sublime_plugin.WindowCommand):
 			cmd = ["C:\\Program Files (x86)\\Corona Labs\\Corona SDK\\Corona Simulator.exe", cmd[1]]
 		elif platform == 'windows':
 			cmd = ["C:\\Program Files\\Corona Labs\\Corona SDK\\Corona Simulator.exe", cmd[1]]
-		#else it must be Mac - carry on
+		elif platform == 'osx':
+			self.window.run_command("save") #for now just save to force simulator
 
-		if not cmd == None:
+		if (not cmd == None) and (not platform == 'osx'):
 			self.window.run_command('exec', { 'kill' : True }) #close sim if open
 			self.window.run_command('exec', {'cmd': cmd, 'file_regex': file_regex})

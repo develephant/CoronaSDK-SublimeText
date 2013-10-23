@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+timer.performWithDelay(${2:delay}, ${3:listener})
+]]></content>
+    <scope>source.lua</scope>
+    <description>Class</description>
+</snippet>

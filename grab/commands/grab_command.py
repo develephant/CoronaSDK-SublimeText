@@ -19,14 +19,14 @@ class GrabCommand(sublime_plugin.WindowCommand):
     def __init__(self, *args, **kwargs):
         super(GrabCommand, self).__init__(*args, **kwargs)
 
-        comp_path = SOURCES_DIR
-        comp_path = os.path.join(comp_path, "coronaget.sources")
+        #comp_path = os.path.join(sublime.packages_path(), "Corona Editor", "coronaget.json")
+        json_data = sublime.load_resource("Packages/Corona Editor/coronaget.json")
 
-        json_data = open(comp_path)
+        #json_data = open(comp_path)
 
-        self.sources = json.load(json_data)
+        self.sources = json.loads(json_data)
 
-        json_data.close()
+        #json_data.close()
 
     def run(self, *args, **kwargs):
         _type = kwargs.get('type', None)

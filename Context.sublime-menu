@@ -5,28 +5,28 @@
 	{ "caption": "-" },
 	{ "caption": "Display", "children": 
 		[
-			{ "caption": "Group", "command": "corona_snippet", "args": { "name": "display.newGroup()" } },
+			{ "caption": "Group", "command": "corona_snippet", "args": { "name": "display.newGroup" } },
 			{ "caption": "-" },
-			{ "caption": "Image", "command": "corona_snippet", "args": { "name": "display.newImage()" } },
-			{ "caption": "Image Rect", "command": "corona_snippet", "args": { "name": "display.newImageRect()" } },
-			{ "caption": "Sprite", "command": "corona_snippet", "args": { "name": "display.newSprite()" } },
+			{ "caption": "Image", "command": "corona_snippet", "args": { "name": "display.newImage" } },
+			{ "caption": "Image Rect", "command": "corona_snippet", "args": { "name": "display.newImageRect" } },
+			{ "caption": "Sprite", "command": "corona_snippet", "args": { "name": "display.newSprite" } },
 			{ "caption": "-" },
-			{ "caption": "Rectangle", "command": "corona_snippet", "args": { "name": "display.newRect()" } },
-			{ "caption": "Rounded Rectangle", "command": "corona_snippet", "args": { "name": "display.newRoundedRect()" } },
-			{ "caption": "Circle", "command": "corona_snippet", "args": { "name": "display.newCircle()" } },
-			{ "caption": "Line", "command": "corona_snippet", "args": { "name": "display.newLine()" } },		
+			{ "caption": "Rectangle", "command": "corona_snippet", "args": { "name": "display.newRect" } },
+			{ "caption": "Rounded Rectangle", "command": "corona_snippet", "args": { "name": "display.newRoundedRect" } },
+			{ "caption": "Circle", "command": "corona_snippet", "args": { "name": "display.newCircle" } },
+			{ "caption": "Line", "command": "corona_snippet", "args": { "name": "display.newLine" } },		
 			{ "caption": "-" },
-			{ "caption": "Text", "command": "corona_snippet", "args": { "name": "display.newText()" } },
-			{ "caption": "Embossed Text", "command": "corona_snippet", "args": { "name": "display.newEmbossedText()" } },
+			{ "caption": "Text", "command": "corona_snippet", "args": { "name": "display.newText" } },
+			{ "caption": "Embossed Text", "command": "corona_snippet", "args": { "name": "display.newEmbossedText" } },
 			{ "caption": "-" },
-			{ "caption": "Set Status Bar", "command": "corona_snippet", "args": { "name": "display.setStatusBar()" } },
-			{ "caption": "Capture Screen", "command": "corona_snippet", "args": { "name": "display.captureScreen()" } },
-			{ "caption": "Save", "command": "corona_snippet", "args": { "name": "display.save()" } }
+			{ "caption": "Set Status Bar", "command": "corona_snippet", "args": { "name": "display.setStatusBar" } },
+			{ "caption": "Capture Screen", "command": "corona_snippet", "args": { "name": "display.captureScreen" } },
+			{ "caption": "Save", "command": "corona_snippet", "args": { "name": "display.save" } }
 		]
 	},
 	{ "caption": "Physics", "children": 
 		[
-			{ "caption": "Add Body", "command": "corona_snippet", "args": { "name": "physics.addBody()" } },
+			{ "caption": "Add Body", "command": "corona_snippet", "args": { "name": "physics.addBody" } },
 			{ "caption": "-" },
 			{ "caption": "Distance Joint", "command": "corona_snippet", "args": { "name": "physics.newjointdistance()" } },
 			{ "caption": "Friction Joint", "command": "corona_snippet", "args": { "name": "physics.newjointfriction()" } },
@@ -35,64 +35,117 @@
 			{ "caption": "Pulley Joint", "command": "corona_snippet", "args": { "name": "physics.newjointpulley()" } },
 			{ "caption": "Touch Joint", "command": "corona_snippet", "args": { "name": "physics.newjointtouch()" } },
 			{ "caption": "Weld Joint", "command": "corona_snippet", "args": { "name": "physics.newjointweld()" } },
-			{ "caption": "Wheel Joint", "command": "corona_snippet", "args": { "name": "physics.newjointwheel()" } },
-			{ "caption": "-" },
-			{ "caption": "Ray Cast", "command": "corona_snippet", "args": { "name": "physics.rayCast()" } },
-			{ "caption": "Query Region", "command": "corona_snippet", "args": { "name": "physics.queryRegion()" } }
+			{ "caption": "Wheel Joint", "command": "corona_snippet", "args": { "name": "physics.newjointwheel()" } }
 		]
 	},
 	{ "caption": "Transitions", "children": 
 		[
-			{ "caption": "To", "command": "corona_snippet", "args": { "name": "transition.to()" } },
-			{ "caption": "From", "command": "corona_snippet", "args": { "name": "transition.from()" } },
-			{ "caption": "Cancel", "command": "corona_snippet", "args": { "name": "transition.cancel()" } },
+			{ "caption": "To", "command": "corona_snippet", "args": { "name": "transition.to" } },
+			{ "caption": "From", "command": "corona_snippet", "args": { "name": "transition.from" } },
+			{ "caption": "Cancel", "command": "corona_snippet", "args": { "name": "transition.cancel" } },
 			{ "caption": "-" },
-			{ "caption": "Blink", "command": "corona_snippet", "args": { "name": "transition.blink()" } },
-			{ "caption": "Fade In", "command": "corona_snippet", "args": { "name": "transition.fadeIn()" } },
-			{ "caption": "Fade Out", "command": "corona_snippet", "args": { "name": "transition.fadeOut()" } },
-			{ "caption": "Move By", "command": "corona_snippet", "args": { "name": "transition.moveBy()" } },
-			{ "caption": "Move To", "command": "corona_snippet", "args": { "name": "transition.moveTo()" } },
-			{ "caption": "Scale By", "command": "corona_snippet", "args": { "name": "transition.scaleBy()" } },
-			{ "caption": "Scale To", "command": "corona_snippet", "args": { "name": "transition.scaleTo()" } }
+			{ "caption": "Blink", "command": "corona_snippet", "args": { "name": "transition.blink" } },
+			{ "caption": "Fade In", "command": "corona_snippet", "args": { "name": "transition.fadeIn" } },
+			{ "caption": "Fade Out", "command": "corona_snippet", "args": { "name": "transition.fadeOut" } },
+			{ "caption": "Move By", "command": "corona_snippet", "args": { "name": "transition.moveBy" } },
+			{ "caption": "Move To", "command": "corona_snippet", "args": { "name": "transition.moveTo" } },
+			{ "caption": "Scale By", "command": "corona_snippet", "args": { "name": "transition.scaleBy" } },
+			{ "caption": "Scale To", "command": "corona_snippet", "args": { "name": "transition.scaleTo" } }
 		]
 	},
 	{ "caption": "Audio", "children": 
 		[
-			{ "caption": "Load Sound", "command": "corona_snippet", "args": { "name": "audio.loadSound()" } },
-			{ "caption": "Load Stream", "command": "corona_snippet", "args": { "name": "audio.loadStream()" } },
-			{ "caption": "Dispose", "command": "corona_snippet", "args": { "name": "audio.dispose()" } },
+			{ "caption": "Load Sound", "command": "corona_snippet", "args": { "name": "audio.loadSound" } },
+			{ "caption": "Load Stream", "command": "corona_snippet", "args": { "name": "audio.loadStream" } },
+			{ "caption": "Dispose", "command": "corona_snippet", "args": { "name": "audio.dispose" } },
 			{ "caption": "-" },
-			{ "caption": "Play", "command": "corona_snippet", "args": { "name": "audio.play()" } },
-			{ "caption": "Stop", "command": "corona_snippet", "args": { "name": "audio.stop()" } },
+			{ "caption": "Play", "command": "corona_snippet", "args": { "name": "audio.play" } },
+			{ "caption": "Stop", "command": "corona_snippet", "args": { "name": "audio.stop" } },
 			{ "caption": "-" },
-			{ "caption": "Set Volume", "command": "corona_snippet", "args": { "name": "audio.setVolume()" } }
+			{ "caption": "Set Volume", "command": "corona_snippet", "args": { "name": "audio.setVolume" } }
 		]
 	},
 	{ "caption": "Widgets", "children": 
 		[
-			{ "caption": "Button", "command": "corona_snippet", "args": { "name": "widget.newButton()" } },
-			{ "caption": "Picker Wheel", "command": "corona_snippet", "args": { "name": "widget.newPickerWheel()" } },
-			{ "caption": "Progress View", "command": "corona_snippet", "args": { "name": "widget.newProgressView()" } },
-			{ "caption": "Scroll View", "command": "corona_snippet", "args": { "name": "widget.newscrollview()" } },
-			{ "caption": "Segmented Control", "command": "corona_snippet", "args": { "name": "widget.newSegmentedControl()" } },
-			{ "caption": "Slider", "command": "corona_snippet", "args": { "name": "widget.newSlider()" } },
-			{ "caption": "Spinner", "command": "corona_snippet", "args": { "name": "widget.newSpinner()" } },
-			{ "caption": "Stepper", "command": "corona_snippet", "args": { "name": "widget.newStepper()" } },
-			{ "caption": "Switch", "command": "corona_snippet", "args": { "name": "widget.newSwitch()" } },
-			{ "caption": "Tab Bar", "command": "corona_snippet", "args": { "name": "widget.newTabBar()" } },
-			{ "caption": "Table View", "command": "corona_snippet", "args": { "name": "widget.newTableView()" } }
+			{ "caption": "Button", "command": "corona_snippet", "args": { "name": "widget.newButton" } },
+			{ "caption": "Picker Wheel", "command": "corona_snippet", "args": { "name": "widget.newPickerWheel" } },
+			{ "caption": "Progress View", "command": "corona_snippet", "args": { "name": "widget.newProgressView" } },
+			{ "caption": "Scroll View", "command": "corona_snippet", "args": { "name": "widget.newscrollview" } },
+			{ "caption": "Segmented Control", "command": "corona_snippet", "args": { "name": "widget.newSegmentedControl" } },
+			{ "caption": "Slider", "command": "corona_snippet", "args": { "name": "widget.newSlider" } },
+			{ "caption": "Spinner", "command": "corona_snippet", "args": { "name": "widget.newSpinner" } },
+			{ "caption": "Stepper", "command": "corona_snippet", "args": { "name": "widget.newStepper" } },
+			{ "caption": "Switch", "command": "corona_snippet", "args": { "name": "widget.newSwitch" } },
+			{ "caption": "Tab Bar", "command": "corona_snippet", "args": { "name": "widget.newTabBar" } },
+			{ "caption": "Table View", "command": "corona_snippet", "args": { "name": "widget.newTableView" } }
 		]
 	},
 	{ "caption": "Native", "children": 
 		[
-			{ "caption": "Text Box", "command": "corona_snippet", "args": { "name": "native.newTextBox()" } },
-			{ "caption": "Text Field", "command": "corona_snippet", "args": { "name": "native.newTextField()" } },
-			{ "caption": "Video", "command": "corona_snippet", "args": { "name": "native.newVideo()" } },
-			{ "caption": "Web View", "command": "corona_snippet", "args": { "name": "native.newWebView()" } },
-			{ "caption": "Activity Indicator", "command": "corona_snippet", "args": { "name": "native.setActivityIndicator()" } },
-			{ "caption": "Show Alert", "command": "corona_snippet", "args": { "name": "native.showAlert()" } },
-			{ "caption": "Show Popup", "command": "corona_snippet", "args": { "name": "native.showPopup()" } },
-			{ "caption": "Show Web Popup", "command": "corona_snippet", "args": { "name": "native.showWebPopup()" } }
+			{ "caption": "Text Box", "command": "corona_snippet", "args": { "name": "native.newTextBox" } },
+			{ "caption": "Text Field", "command": "corona_snippet", "args": { "name": "native.newTextField" } },
+			{ "caption": "Video", "command": "corona_snippet", "args": { "name": "native.newVideo" } },
+			{ "caption": "Web View", "command": "corona_snippet", "args": { "name": "native.newWebView" } },
+			{ "caption": "Activity Indicator", "command": "corona_snippet", "args": { "name": "native.setActivityIndicator" } },
+			{ "caption": "Show Alert", "command": "corona_snippet", "args": { "name": "native.showAlert" } },
+			{ "caption": "Show Popup", "command": "corona_snippet", "args": { "name": "native.showPopup" } },
+			{ "caption": "Show Web Popup", "command": "corona_snippet", "args": { "name": "native.showWebPopup" } }
+		]
+	},
+	{ "caption": "-"},
+	{ "caption": "Event Listeners", "children":
+		[
+			{ "caption": "Add Event Listener", "children":
+				[
+					{ "caption": "Accelerometer", "command": "corona_snippet", "args": { "name": "al_accelerometer" } },
+					{ "caption": "Axis", "command": "corona_snippet", "args": { "name": "al_axis" } },
+					{ "caption": "Collision", "command": "corona_snippet", "args": { "name": "al_collision" } },
+					{ "caption": "Enter Frame", "command": "corona_snippet", "args": { "name": "al_enterframe" } },
+					{ "caption": "Gyroscope", "command": "corona_snippet", "args": { "name": "al_gyroscope" } },
+					{ "caption": "Heading", "command": "corona_snippet", "args": { "name": "al_heading" } },
+					{ "caption": "Input Device Status", "command": "corona_snippet", "args": { "name": "al_inputdevicestatus" } },
+					{ "caption": "Key", "command": "corona_snippet", "args": { "name": "al_key" } },
+					{ "caption": "Mouse", "command": "corona_snippet", "args": { "name": "al_mouse" } },
+					{ "caption": "Notification", "command": "corona_snippet", "args": { "name": "al_notification" } },
+					{ "caption": "Orientation", "command": "corona_snippet", "args": { "name": "al_orientation" } },
+					{ "caption": "Resize", "command": "corona_snippet", "args": { "name": "al_resize" } },
+					{ "caption": "Sprite", "command": "corona_snippet", "args": { "name": "al_sprite" } },
+					{ "caption": "System", "command": "corona_snippet", "args": { "name": "al_system" } },
+					{ "caption": "Tap", "command": "corona_snippet", "args": { "name": "al_tap" } },
+					{ "caption": "Touch", "command": "corona_snippet", "args": { "name": "al_touch" } }
+				]
+			},
+			{ "caption": "Remove Event Listener", "children":
+				[
+					{ "caption": "Accelerometer", "command": "corona_snippet", "args": { "name": "rl_accelerometer" } },
+					{ "caption": "Axis", "command": "corona_snippet", "args": { "name": "rl_axis" } },
+					{ "caption": "Collision", "command": "corona_snippet", "args": { "name": "rl_collision" } },
+					{ "caption": "Enter Frame", "command": "corona_snippet", "args": { "name": "rl_enterframe" } },
+					{ "caption": "Gyroscope", "command": "corona_snippet", "args": { "name": "rl_gyroscope" } },
+					{ "caption": "Heading", "command": "corona_snippet", "args": { "name": "rl_heading" } },
+					{ "caption": "Input Device Status", "command": "corona_snippet", "args": { "name": "rl_inputdevicestatus" } },
+					{ "caption": "Key", "command": "corona_snippet", "args": { "name": "rl_key" } },
+					{ "caption": "Mouse", "command": "corona_snippet", "args": { "name": "rl_mouse" } },
+					{ "caption": "Notification", "command": "corona_snippet", "args": { "name": "rl_notification" } },
+					{ "caption": "Orientation", "command": "corona_snippet", "args": { "name": "rl_orientation" } },
+					{ "caption": "Resize", "command": "corona_snippet", "args": { "name": "rl_resize" } },
+					{ "caption": "Sprite", "command": "corona_snippet", "args": { "name": "rl_sprite" } },
+					{ "caption": "System", "command": "corona_snippet", "args": { "name": "rl_system" } },
+					{ "caption": "Tap", "command": "corona_snippet", "args": { "name": "rl_tap" } },
+					{ "caption": "Touch", "command": "corona_snippet", "args": { "name": "rl_touch" } }
+				]
+			},
+			{ "caption": "New Event Listener Stub", "command": "corona_snippet", "args": { "name": "addeventlistenerext" } },
+			{ "caption": "Expand Selection to Add", "command": "corona_snippet", "args": { "name": "addeventlistener" } },
+			{ "caption": "Expand Selection to Remove", "command": "corona_snippet", "args": { "name": "removeeventlistener" } }
+		] 
+	},
+	{ "caption": "Timer", "children": 
+		[
+			{ "caption": "Perform With Delay", "command": "corona_snippet", "args": { "name": "timer.performwithdelay" } },
+			{ "caption": "Perform With Delay (id)", "command": "corona_snippet", "args": { "name": "timer.performwithdelay.id" } },
+			{ "caption": "Perform With Delay (anon)", "command": "corona_snippet", "args": { "name": "timer.performwithdelay.anon" } },
+			{ "caption": "Perform With Delay (ext)", "command": "corona_snippet", "args": { "name": "timer.performwithdelay.ext" } }
 		]
 	},
 	{ "caption": "Other", "children": 

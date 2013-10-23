@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+setReferencePoint(${2:referencePoint})
+]]></content>
+	<tabTrigger>setReferencePoint</tabTrigger>
+    <scope>source.lua</scope>
+    <description>setReferencePoint()</description>
+</snippet>

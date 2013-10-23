@@ -167,7 +167,6 @@ scene:addEventListener( "overlayEnded", scene )
 
 return scene
     ]]></content>
-    <tabTrigger>stb</tabTrigger>
     <scope>source.lua</scope>
-    <description>Storyboard scene</description>
+    <description>New Storyboard scene</description>
 </snippet>

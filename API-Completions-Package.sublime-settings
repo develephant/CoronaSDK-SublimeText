@@ -1,0 +1,11 @@
+{
+  // --------------------
+  // APIs Setup
+  // --------------------
+  // `true` means enable it.
+  // `false` means disable it.
+  // `//` means disable it with code comment.
+  "completion_active_list": {
+    "Corona": true
+  }
+}

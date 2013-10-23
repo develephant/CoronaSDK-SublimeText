@@ -10,7 +10,7 @@
 
 	"osx":
 	{
-		"cmd": ["open", "-a", "/Applications/CoronaSDK/Corona Simulator.app", "$file_path/main.lua"],
+		"cmd": ["open", "/Applications/CoronaSDK/Corona Terminal", "$file_path/main.lua"],
 		"file_regex": "(^/[^:]*):([0-9]+):([0-9]*)(.*)",
 		"target": "on_build"
 	}
